@@ -1,6 +1,5 @@
-//백준 3052번
-//나머지중에서 서로 다른숫자가 몇개가 있는지
-/*
+//Baekjoon 3052
+//How many different numbers in the remain
 #include<iostream>
 using namespace std;
 
@@ -43,4 +42,4 @@ int main() {
 		c.putRemain(num);
 	}
 	c.print();
-}*/
+}
