@@ -1,6 +1,5 @@
-//백준 2577번
-//해당 숫자에 들어가있는 숫자의 개수 구하기 0~9까지
-/*
+//Baekjoon 2577
+//Count the how many numbers 0 ~ 9 are in the result of the expression
 #include<iostream>
 #include<vector>
 #include<string>
@@ -65,8 +64,8 @@ int main() {
 	cin >> a >> b >> c;
 	res = a * b * c;
 	string str = to_string(res);
-	//string 클래스는 int나 float 같은 타입을 변환하는 메소드 없음
-	//그래서 static_cast<string>(res)가 안됬던거임. to_string 사용
+	//String class doesn't have the methods of changing type to int or float
+	//So static_cast<string>(res) cannot be used. -> Use to_string 
 	Cal cal(str);
 	cal.count();
-}*/
+}
