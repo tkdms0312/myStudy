@@ -1,5 +1,4 @@
-//백준 1546번 새로운 점수 평균구하기
-/*
+//Baekjoon 1546 Averages of new grades
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -46,4 +45,3 @@ int main() {
 	}
 	cout << c.Average() << endl;
 }
-*/
